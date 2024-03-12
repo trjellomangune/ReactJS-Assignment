@@ -1,0 +1,49 @@
+.formSection {
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .buttonContainer {
+    width: 80%;
+    align-self: center;
+  }
+  
+  .buttonContainer button {
+    background-color: #E7A48B;
+  }
+  
+  .buttonContainer button:hover {
+    background-color: #F7C3B0;
+  }
+  
+  .formContainer {
+    align-self: center;
+    width: 80%;
+    padding: 50px;
+    border: 2px solid #EED9AF;
+    border-radius: 10px;
+    background-color: #EED9AF;
+  }
+  
+  /* .formContainer form {
+    width: 20%;
+    display: flex;
+    gap: 20px;
+  } */
+  
+  .submitContainer {
+    padding: 25px;
+  }
+  
+  .submitContainer button {
+    background-color: #E7A48B;
+  }
+  
+  .submitContainer button:hover {
+    background-color: #F7C3B0;
+  }
